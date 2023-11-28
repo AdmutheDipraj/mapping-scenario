@@ -5,4 +5,6 @@ import com.neosoft.model.User;
 public interface UserService {
 
     User saveUser(User user);
+
+    public User getUserById(Integer userId);
 }
