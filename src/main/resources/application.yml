@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: Trigger@1
+    url: jdbc:mysql://localhost:3306/mapping
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9797
